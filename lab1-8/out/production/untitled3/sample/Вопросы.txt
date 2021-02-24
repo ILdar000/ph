@@ -1,2 +1,0 @@
-как должен работать combobox в MainMenuController ПЗ 10
-не понятно зачем ур доступа
