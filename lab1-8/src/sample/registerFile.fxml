@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="420.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.register">
+    <children>
+        <AnchorPane prefHeight="127.0" prefWidth="420.0" style="-fx-background-color: #7A4EFF;">
+            <children>
+                <Label layoutX="112.0" layoutY="20.0" prefHeight="87.0" prefWidth="196.0" text="Регистрация"
+                       textFill="WHITE">
+                    <font>
+                        <Font size="34.0"/>
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <Button fx:id="registerButton" layoutX="104.0" layoutY="367.0" mnemonicParsing="false" text="Зарегистрироваться"
+                textFill="#a80a0ad1"/>
+        <TextField fx:id="loginLabel" layoutX="104.0" layoutY="142.0" promptText="Login">
+            <font>
+                <Font size="17.0"/>
+            </font>
+        </TextField>
+        <TextField fx:id="passwordLabel" layoutX="104.0" layoutY="200.0" promptText="Password">
+            <font>
+                <Font size="17.0"/>
+            </font>
+        </TextField>
+        <Button fx:id="cancelRegisterButton" layoutX="256.0" layoutY="367.0" mnemonicParsing="false" text="Отмена"
+                textFill="#a80a0ad1"/>
+        <TextField fx:id="NameLabel" layoutX="104.0" layoutY="252.0" promptText="Name">
+            <font>
+                <Font size="17.0"/>
+            </font>
+        </TextField>
+        <TextField fx:id="SurnameLabel" layoutX="104.0" layoutY="302.0" promptText="Surname">
+            <font>
+                <Font size="17.0"/>
+            </font>
+        </TextField>
+    </children>
+</AnchorPane>
